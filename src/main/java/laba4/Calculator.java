@@ -1,12 +1,19 @@
 package laba4;
 
 import java.io.IOException;
-@WebServlet{name="Calc", urlPatterns="/JavaCalc"} // Связывание сервлета с URL
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet(name="Calc", urlPatterns="/JavaCalc") //связывание сервлета с URL
 public class Calculator extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestCalc Calc = RequestCalc.fromRequestParameters(request);
-		Calc.setAsRequestAttributedAndCalculate(request);
+		RequestCalc Calculator = RequestCalc.fromRequestParameters(request);
+		Calculator.setAsRequestAttributeAndCalculate(request);
 		
 		request.getRequestDispatcher("/Results.jsp").forward(request, response);
 		
