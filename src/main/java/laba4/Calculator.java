@@ -31,9 +31,9 @@ public class Calculator extends HttpServlet {
 		}
 		public void setAsRequestAttributeAndCalculate(HttpServletRequest request) {
 			request.setAttribute("radius_result", radius_calc);
-			int radius_try;
+			double radius_try;
 			try {
-			radius_try=Integer.parseInt(radius_calc);
+			radius_try=Double.parseDouble(radius_calc);
 			}
 			catch (NumberFormatException e) {
 				radius_try=0;
