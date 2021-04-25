@@ -20,7 +20,7 @@ public class Calculator extends HttpServlet {
 	}
 	private static class RequestCalc {
 		private final String radius_calc;
-		private int result;
+		private double result;
 		
 		private RequestCalc (String radius) {
 			this.radius_calc = radius;
@@ -38,8 +38,9 @@ public class Calculator extends HttpServlet {
 			catch (NumberFormatException e) {
 				radius_try=0;
 			}
-		result=radius_try;
-		request.setAttribute("result", result);
+		result=radius_try*2*Math.PI;
+		String results = String.format("%.1f",result);
+		request.setAttribute("results", results);
 		}
 		}	
 }
