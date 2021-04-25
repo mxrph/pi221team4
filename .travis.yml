@@ -1,8 +1,7 @@
 deploy:
-	provider: heroku
-	api_key:
-	  secure: "308eb396-02e5-436c-ad62-166ed228935e"
-	app:
-	  master: my_app_staging
-	  production: my_app_production
-
+provider: heroku
+api_key:
+	secure: "308eb496-02e5-436c-ad62-166ed228935e"
+app:
+	master: my_app_staging
+	production: my_app_production
