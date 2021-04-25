@@ -1,7 +1,7 @@
-deploy:
+deploy: 
 provider: heroku
-api_key:
-	secure: "308eb496-02e5-436c-ad62-166ed228935e"
-app:
-	master: my_app_staging
-	production: my_app_production
+api_key: 
+secure: 
+app: pi221team4
+dd:
+  secure: TdZETKLmdw9Hbr8BeoT2aK7Oa28hLiAdaE3+Yi1XoJO7RkNuOwP8PZ6V+oYXzMBVM7TLh+iWmmSWw1kdTb/qjZHws0K1LkAEfF1xbOZnJN+TqifPAKkQr0pNG7m7byTzWf/yQI/ppiy+hcraRtdI5n/RPTnP9ZMNsnqSHOEPfWxFfX2pR7N0SMC6iTGnBmPY7AVVMrdeMD30emWsUQkZW8pvrqCYbvNz2k7168j04soSuYH7RId96g3aYxMiQbHTW1JmHonAdehtstICbAXco68rCCfvqw1IJFtWFxJQuZBfJ/xO70bl4D0QbIC9gXVzw5KBcSoFinySsD4FbVfpGlG5HoaPIGhKgT6oIp0xc50L+gRjIV+lw1MV3bjWh4O4hYWw6zYETX0VmrRNtsBOtre2eHyR96SGBiS+4dTXJbkEi1af2nmzQ8X6FIL6mytSDlp3njwKxJy9kh/TMK49jD57vGZ4ZTB3+2tWYM31B+xh1buDVzU2E7OQxlgYNrS4+3/B0hPTWhGAR6QwRPqj40NB0QS38PCVYtuuptMo87ZBNhwxnQEEC/0IZoXMJtwaLFKYfje3GzhSZPs1hZCEuzdMxP/Q+k+J8ZQlgV9IT+98rpzDL/tb1WIP8aoW8q4thBNnsK4CvO0Eo9tlYvTq+wPIdEeq86gf5nJ4L4C4cs8=

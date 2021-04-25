@@ -39,7 +39,7 @@ public class Calculator extends HttpServlet {
 				radius_try=0;
 			}
 		result=radius_try*2*Math.PI;
-		String results = String.format("%.1f",result);
+		String results = String.format("%.2f",result);
 		request.setAttribute("results", results);
 		}
 		}	
