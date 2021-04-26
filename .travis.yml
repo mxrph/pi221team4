@@ -7,6 +7,7 @@ api_key: e82fdff4-2d98-44c9-ac47-cd19b3aa409f
 app:
 master: pi221team4
 Stepanyan: pi221-stepanyan
+Sheifel: pi221-sheifel
 true: 
 on:
 repo: mxrph/pi221team4
