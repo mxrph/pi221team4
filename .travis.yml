@@ -1,9 +1,9 @@
-language:java
+language: java
 deploy: 
 provider: heroku
 api_key: 
 secure: 
-app: pi221team4
+app: pi221-stepanyan
 on:
 repo: mxrph/pi221team4
 dd:
