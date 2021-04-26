@@ -4,7 +4,9 @@ script:
 deploy: 
 provider: heroku
 api_key: e82fdff4-2d98-44c9-ac47-cd19b3aa409f
-app: pi221team4
+app:
+master: pi221team4
+Stepanyan: pi221-stepanyan
 true: 
 repo: mxrph/pi221team4
 dd:
