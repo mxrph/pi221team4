@@ -1,6 +1,4 @@
 language: java
-script:
--mvn clean package
 deploy: 
 provider: heroku
 api_key: e82fdff4-2d98-44c9-ac47-cd19b3aa409f
