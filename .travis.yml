@@ -1,7 +1,6 @@
 language: java
 script:
 - mvn clean package
-- git push heroku master
 deploy: 
 provider: heroku
 api_key: 
