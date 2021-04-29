@@ -9,7 +9,7 @@
 	<body>
 	<h1>Калькулятор - периметр круга</h1>
 	<form action="${pageContext.request.contextPath }/JavaCalc" method="post">
-	<label for="radius"> Радиус круга:</label>
+	<label for="radius"> Радиус круга :</label>
 	<input type="text" name="radius" id="radius" value="${radius}">
 		<input type="submit" name="sign" value="Calculate"> 
 	</form>
