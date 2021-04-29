@@ -1,6 +1,7 @@
 language: java
 script:
 - mvn clean package
+after_script:
 deploy: 
 provider: heroku
 api_key: 
