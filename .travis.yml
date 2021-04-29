@@ -1,7 +1,4 @@
 language: java
-script:
-- mvn clean package
-after_script:
 deploy: 
 provider: heroku
 api_key: 
@@ -13,3 +10,5 @@ Sheifel: pi221-sheifel
 Fakhretdinova: pi221-fakhretdinova
 on:
 repo: mxrph/pi221team4
+script:
+- mvn clean package
