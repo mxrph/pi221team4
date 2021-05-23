@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(name="Calc", urlPatterns="/JavaCalc") //связывание сервлета с URL
-public class Calculator extends HttpServlet {
+public class Calculator extends HttpServlet  {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RequestCalc Calculator = RequestCalc.fromRequestParameters(request);
